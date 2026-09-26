@@ -61,3 +61,9 @@ const parent =(
 )
 let root = ReactDOM.createRoot(document.querySelector("#root"));
 root.render(parent);  this is a basic example of jxml code in react 
+
+
+<!-- day 1 const h1 = <h1>HELLO</h1>;
+
+let root = ReactDOM.createRoot(document.querySelector("#root"));
+root.render(h1); -->

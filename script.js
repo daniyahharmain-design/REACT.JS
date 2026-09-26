@@ -1,38 +1,38 @@
-import React from "react"
-import ReactDOM from "react-dom/client"
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+const Headers = () => {
+    return (<div>
+        <h1> MY MINI STORE </h1>
+        <p>WELCOME TO MY STORE </p>
+    </div>)
+}
 
 
+const Product = (props) => {
+    return (
+        <div>
+            <h2>{props.name}</h2>
+            <p>Price: ${props.price}</p>
+        </div>
+    )
+}
 
 
-const heading =(
-  <div> 
-    <h1  className="blue"> HELLO WORLD </h1>
-    <p> im a paragraph</p>
-    
-  </div>
+function App (){
+    return(
+        <div>
+            <Headers/>
 
-);
+            <Product name="crocher page" price="800" />
+            <Product name="fllower bracelet" price="370" />
+            <Product name="mini purse" price="500" />
 
-const body =(
-  <div> 
-    <h2  className="blue"> im a h2 heading from body </h2>
-    <p> r;sezergp;kf"Skb,D"Bv </p>
-    
-  </div>
+            
 
-);
+        </div>
+    )
+}
 
-const parent =(
-  <div>
-  {heading}
-  {body}
-
-  </div>
-)
-
-
-
-let root = ReactDOM.createRoot(document.querySelector("#root"));
-root.render(parent);
-
-
+const root = ReactDOM.createRoot(document.querySelector("#root"));
+root.render(<App />);

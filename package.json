@@ -1,7 +1,7 @@
 {
   "name": "react",
   "version": "1.0.0",
-  "description": "",
+  "description": "- create a folder (Batch-6-React)\r - create index.html and script.js\r - add boilerplate to index.html and script with src=\"script.js\"",
   "homepage": "https://github.com/daniyahharmain-design/REACT.JS#readme",
   "bugs": {
     "url": "https://github.com/daniyahharmain-design/REACT.JS/issues"
@@ -14,9 +14,7 @@
   "author": "",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx parcel index.html --no cache",
-    "build": "npx parcel build index.html"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "react": "^19.3.0",
